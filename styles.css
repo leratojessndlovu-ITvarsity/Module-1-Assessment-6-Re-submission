@@ -1,0 +1,81 @@
+h1{
+text-decoration:dotted; 
+color:darkblue;
+
+}
+
+p{
+    font-family: fantasy;
+    font-size: 30px;
+    font-style: italic, bold;
+    color:darkred; 
+}
+
+h3{
+font-family: 'Times New Roman', Times;
+color: red;
+font-style:inherit;
+}
+
+h4{
+    font-style:italic; 
+    color:red;
+}
+
+#menu-bar a{
+    text-decoration: none;
+    color: black ;
+    font-weight: 800;
+    font-size: 14px;
+    font-family:Helvetica, sans-serif;
+    
+    background-image: url('images/menu-button.gif');
+    background-repeat: no-repeat;
+    display: block;
+    width: 128px;
+    height: 25px;
+    padding-left: 18px ;
+    padding-top: 2px;
+    
+    float:right;
+     }
+    #menu-bar a:hover{
+       background-image: url('images/menu-button-hover.gif');
+       color:#ffffff;
+    }
+
+    #gallery{
+        text-align: center;
+        }
+
+   #body {
+        background-color : black;
+    }
+
+    #phone {
+        text-align:center;
+   background-image:url("images/contact.jpg") 
+    
+   }
+
+   #buy{ 
+    text-align: center;
+       }
+
+  
+       table{
+         border-collapse:collapse;   
+         border-style:dotted;
+         overflow: hidden;
+            }
+
+            th{
+                padding: 12px 15px;
+                font-weight:bold;
+                        
+             }
+
+    #background{
+background-color:gray;
+text-align:center;
+}         
